@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      */
     [0] = LAYOUT_65_ansi_blocker_split_bs(
         KC_ESC,  KC_1,         KC_2,         KC_3,         KC_4,         KC_5, KC_6,         KC_7,         KC_8,         KC_9,         KC_0,            KC_MINS, KC_EQL,  KC_GRV, KC_BSLS, KC_NO,
-        KC_TAB,  LSFT_T(KC_Q), LCTL_T(KC_W), LALT_T(KC_E), LGUI_T(KC_R), KC_T, KC_Y,         RGUI_T(KC_U), RALT_T(KC_I), RCTL_T(KC_O), RSFT_T(KC_P),    KC_LBRC, KC_RBRC, KC_BSPC,         KC_DEL,
+        KC_TAB,  KC_Q,         KC_W,         KC_E,         KC_R,         KC_T, KC_Y,         KC_U,         KC_I,         KC_O,         KC_P,    KC_LBRC, KC_RBRC, KC_BSPC,         KC_DEL,
         KC_LGUI, LGUI_T(KC_A), LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F), KC_G, KC_H,         RSFT_T(KC_J), RCTL_T(KC_K), RALT_T(KC_L), RGUI_T(KC_SCLN), KC_QUOT,     KC_ENT,               KC_PGUP,
         KC_LSFT,               KC_Z,         KC_X,         KC_C,         KC_V, KC_B,         KC_N,         KC_M,         KC_COMM,      KC_DOT,          KC_SLSH, KC_RSFT,     KC_UP,       KC_PGDN,
         KC_LCTL, KC_LALT,      KC_LGUI,                                        LT(2,KC_SPC),                             MO(1),        KC_RGUI,                      KC_LEFT, KC_DOWN,     KC_RGHT
